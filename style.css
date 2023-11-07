@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #eef4fa;
+    width: 100%;
+    height: 100vh;    
+}
+.header {
+    text-align: center;
+    padding: 40px 10px 10px 10px;
+}
+.header > h1 {
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.header > p {
+    color:#95a3af;
+    font-size: large;
+}
+.section {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 40px auto auto 135px;
+}
+.section .tabs-img {
+    width: 40%;
+    height: 80%;
+}
+.tabs-img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.section .tabs {
+    width: 40%;
+    height: 85%;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.tabs #tabs-btn {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#tabs-btn > button {
+    width: 33.3%;
+    height: 100%;
+    cursor: pointer;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+}
+#History {
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+}
+#History:hover {
+    border: 3px solid rgb(0, 110, 255);
+    color: rgb(0, 47, 255);
+}
+#Vision {
+    background-color: #e8f5fe;
+}
+#Vision:hover {
+    border: 3px solid rgb(0, 110, 255);
+    color: rgb(0, 47, 255);
+}
+#Goals {
+    background-color: #d5dde9;
+    border-top-right-radius: 10px;
+}
+#Goals:hover {
+    border: 3px solid rgb(0, 110, 255);
+    color: rgb(0, 47, 255);
+}
+.tabs #tabs-content {
+    max-height: 80%;
+    height: 200px;
+    padding: 20px 10px 45px 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 45px;
+    /* overflow:scroll; */
+}
+#tabs-content > h3 {
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 5px;
+}
+/* #tabs-content > p {
+    color: darkslategray;
+} */
+#tab-History {
+    color:rgb(105, 103, 103)
+}
+#tab-Vision {
+    color:#6daddb;
+}
+#tab-Goals {
+    color:rgb(187, 129, 129)
+}
